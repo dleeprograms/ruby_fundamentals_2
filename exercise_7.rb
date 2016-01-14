@@ -8,12 +8,12 @@ students = {
 :cohort3 => 22
 }
 
-# students.each do |k, v|
-#   puts "#{k}: #{v} student"
+students.each do |k, v|
+  puts "#{k}: #{v} student"
+
+  end
 #
-#   end
-# 
-#  students[:cohort4] = 43
+ students[:cohort4] = 43
  # hash[:item2] = 2
 
 

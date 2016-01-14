@@ -25,7 +25,7 @@ puts grocery_list.include?("banana")
 
 puts grocery_list[1]
 puts '----- about to make the function'
-def items(grocery_list)
+  def items(grocery_list)
     grocery_list.sort.each do |item|
       puts "*" + item
     end
