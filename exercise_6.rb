@@ -24,7 +24,15 @@ puts grocery_list.include?("banana")
   end
 
 puts grocery_list[1]
-
-puts grocery_list.delete ("salmon")
-
-puts grocery_list
+puts '----- about to make the function'
+def items(grocery_list)
+    grocery_list.sort.each do |item|
+      puts "*" + item
+    end
+end
+puts '----second last'
+items(grocery_list)
+puts '-----delete salmon'
+grocery_list.delete ("salmon")
+puts '-----last'
+items(grocery_list)
